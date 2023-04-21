@@ -12,29 +12,11 @@ const Header = () => (
   <div className="HelpDialog__header">
     <a
       className="HelpDialog__btn"
-      href="https://github.com/excalidraw/excalidraw#documentation"
+      href="https://github.com/Lincest/excalidraw"
       target="_blank"
       rel="noopener noreferrer"
     >
-      {t("helpDialog.documentation")}
-      <div className="HelpDialog__link-icon">{ExternalLinkIcon}</div>
-    </a>
-    <a
-      className="HelpDialog__btn"
-      href="https://blog.excalidraw.com"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {t("helpDialog.blog")}
-      <div className="HelpDialog__link-icon">{ExternalLinkIcon}</div>
-    </a>
-    <a
-      className="HelpDialog__btn"
-      href="https://github.com/excalidraw/excalidraw/issues"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {t("helpDialog.github")}
+      这是一个excalidraw的简单hack, 支持了中文字体霞鹜文楷
       <div className="HelpDialog__link-icon">{ExternalLinkIcon}</div>
     </a>
   </div>
